@@ -1,0 +1,13 @@
+{
+    "evento": {
+        "action": {
+            "name": "getData",
+            "parameters": {
+                "endpoint": "https://site"
+            }
+        },
+        "elementoId": "7fe47a1d-e933-4a37-99e6-07faf863",
+        "evento": "load",
+        "placeId": 5
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "action": {
+        "name": "redirect",
+        "parameters": {
+            "url": "https://site"
+        }
+    }
+}
