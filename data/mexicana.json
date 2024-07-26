@@ -1,0 +1,242 @@
+{
+    "ElementosBase": [
+        {
+            "xsi_type": "Pantalla",
+            "id": "f500c90e-6d1b-42ff-95af-881a40e339a8",
+            "name": "Inicio",
+            "CronoTag": "2024-05-13T05:10:08.1200219Z",
+            "DireccionComBlog": "demospace-prueba",
+            "styles": {
+                "backgroundColor": "#000000",
+                "padding": "0px",
+                "width": "100%",
+                "height": "auto",
+                "borderWidth": "0px",
+                "borderColor": "#000000",
+                "borderRadius": "0px",
+                "opacity": "1",
+                "alignItems": "center",
+                "textAlign": "center",
+                "columnIndex": "1"
+            },
+            "items": [
+                {
+                    "xsi_type": "Contenedor",
+                    "id": "b45ab741-79b2-403f-8aa5-e121cf4bac67",
+                    "CronoTag": "2024-06-11T07:31:27.6572184Z",
+                    "name": "",
+                    "items": [
+                        {
+                            "xsi_type": "ContenedorInterno",
+                            "id": "04ff5558-f676-5032-acd3-179b6b34baed",
+                            "name": "",
+                            "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                            "styles": {
+                                "padding": "10px",
+                                "width": "100%",
+                                "height": "fit-content",
+                                "display": "flex",
+                                "backgroundImage": "URL(${https://cdn.pixabay.com/photo/2021/03/25/19/30/headphones-6123966_1280.jpg})",
+                                "backgroundSize": "cover",
+                                "backgroundRepeat": "no-repeat",
+                                "backgroundPosition": "center"
+                            },
+                            "items": [
+                                {
+                                    "xsi_type": "Formulario",
+                                    "id": "04ff5558-f676-4632-acd3-179b6b392aed",
+                                    "name": "",
+                                    "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                    "styles": {
+                                        "display": "flex",
+                                        "flexDirection": "column",
+                                        "alignItems": "flex-end",
+                                        "gap": "5px",
+                                        "padding": "15px",
+                                        "borderWidth": "2px",
+                                        "borderColor": "#ed1d7a",
+                                        "width": "100%",
+                                        "height": "100%",
+                                        "borderRadius": "10px"
+                                    },
+                                    "items": [
+                                        {
+                                            "xsi_type": "ContenedorInterno",
+                                            "id": "04ff5558-f676-4632-acd3-179b1134baqw",
+                                            "name": "",
+                                            "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                            "styles": {
+                                                "width": "100%"
+                                            },
+                                            "items": [
+                                                {
+                                                    "xsi_type": "Etiqueta",
+                                                    "id": "04ff5558-f676-4632-acd3-179b6b34bghq",
+                                                    "name": "",
+                                                    "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                                    "innerText": "¿Quién eres y de dónde eres?",
+                                                    "styles": {
+                                                        "color": "white",
+                                                        "fontSize": "14px"
+                                                    }
+                                                },
+                                                {
+                                                    "xsi_type": "Caja_Texto",
+                                                    "id": "04ff5558-f676-4632-acd3-179b6b34bglj",
+                                                    "name": "",
+                                                    "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                                    "styles": {
+                                                        "backgroundColor": "white",
+                                                        "height": "25px",
+                                                        "width": "100%",
+                                                        "borderRadius": "5px",
+                                                        "border": "none",
+                                                        "marginTop": "3px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "xsi_type": "ContenedorInterno",
+                                            "id": "04ff5558-f676-4632-acd3-179b1134baee",
+                                            "name": "",
+                                            "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                            "styles": {
+                                                "width": "100%"
+                                            },
+                                            "items": [
+                                                {
+                                                    "xsi_type": "Etiqueta",
+                                                    "id": "04ff5558-f676-4632-acd3-179b6b34bghw",
+                                                    "name": "",
+                                                    "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                                    "innerText": "¿Quién quieres ser?",
+                                                    "styles": {
+                                                        "color": "white",
+                                                        "fontSize": "14px"
+                                                    }
+                                                },
+                                                {
+                                                    "xsi_type": "Caja_Texto",
+                                                    "id": "04ff5558-f676-4632-acd3-179b6b34bgjk",
+                                                    "name": "",
+                                                    "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                                    "styles": {
+                                                        "backgroundColor": "white",
+                                                        "height": "25px",
+                                                        "width": "100%",
+                                                        "borderRadius": "5px",
+                                                        "border": "none",
+                                                        "marginTop": "3px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "xsi_type": "ContenedorInterno",
+                                            "id": "04ff5558-f676-4632-acd3-179b1134ba33",
+                                            "name": "",
+                                            "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                            "styles": {
+                                                "width": "100%"
+                                            },
+                                            "items": [
+                                                {
+                                                    "xsi_type": "Etiqueta",
+                                                    "id": "04ff5558-f676-4632-acd3-179b6b34bghe",
+                                                    "name": "",
+                                                    "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                                    "innerText": "¿Cual es tu email?",
+                                                    "styles": {
+                                                        "color": "white",
+                                                        "fontSize": "14px"
+                                                    }
+                                                },
+                                                {
+                                                    "xsi_type": "Caja_Texto",
+                                                    "id": "04ff5558-f676-4632-acd3-179b6b34bgaq",
+                                                    "name": "",
+                                                    "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                                    "styles": {
+                                                        "backgroundColor": "white",
+                                                        "height": "25px",
+                                                        "width": "100%",
+                                                        "borderRadius": "5px",
+                                                        "border": "none",
+                                                        "marginTop": "3px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "xsi_type": "ContenedorInterno",
+                                            "id": "04ff5558-f676-4632-acd3-179b1134ba89",
+                                            "name": "",
+                                            "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                            "styles": {
+                                                "width": "100%"
+                                            },
+                                            "items": [
+                                                {
+                                                    "xsi_type": "Etiqueta",
+                                                    "id": "04ff5558-f676-4632-acd3-179b6b34bghr",
+                                                    "name": "",
+                                                    "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                                    "innerText": "Link de tu canción",
+                                                    "styles": {
+                                                        "color": "white",
+                                                        "fontSize": "14px"
+                                                    }
+                                                },
+                                                {
+                                                    "xsi_type": "Caja_Texto",
+                                                    "id": "04ff5558-f676-4632-acd3-179b6b34bgcv",
+                                                    "name": "",
+                                                    "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                                    "styles": {
+                                                        "backgroundColor": "white",
+                                                        "height": "25px",
+                                                        "width": "100%",
+                                                        "borderRadius": "5px",
+                                                        "border": "none",
+                                                        "marginTop": "3px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "xsi_type": "BotonCapsula",
+                                            "id": "04ff5558-f676-4632-acd3-179b6b34bgbm",
+                                            "name": "",
+                                            "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                            "styles": {
+                                                "backgroundColor": "#ed1d7a",
+                                                "width": "fit-content",
+                                                "padding": "2px 15px",
+                                                "color": "white",
+                                                "marginTop": "5px",
+                                                "borderRadius": "5px"
+                                            },
+                                            "event": {
+                                                "action": {
+                                                    "name": "submit",
+                                                    "parameters": {
+                                                        "endpoint": "https://site",
+                                                        "data": ["04ff5558-f676-4632-acd3-179b6b34bglj", "04ff5558-f676-4632-acd3-179b6b34bgjk", "04ff5558-f676-4632-acd3-179b6b34bgaq", "04ff5558-f676-4632-acd3-179b6b34bgcv"]
+                                                    }
+                                                },
+                                                "elementoId": "7fe47a1d-e933-4a37-99e6-07faf863",
+                                                "trigger": "onClick",
+                                                "placeId": 5
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
