@@ -1,0 +1,14 @@
+{
+    "evento": {
+        "action": {
+            "name": "submit",
+            "parameters": {
+                "endpoint": "https://site"
+            }
+        },
+        "data": "{ nombre: '', apellidos:'', edad:'' }",
+        "elementoId": "7fe47a1d-e933-4a37-99e6-07faf863",
+        "evento": "click",
+        "placeId": 5
+    }
+}

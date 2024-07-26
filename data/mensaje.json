@@ -1,0 +1,8 @@
+{
+    "action": {
+        "name": "showMessage",
+        "parameters": {
+            "message": "Información recibida"
+        }
+    }
+}
