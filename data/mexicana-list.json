@@ -1,0 +1,227 @@
+{
+    "ElementosBase": [
+        {
+            "xsi_type": "Pantalla",
+            "id": "f500c90e-6d1b-42ff-95af-881a40e339a8",
+            "name": "Inicio",
+            "CronoTag": "2024-05-13T05:10:08.1200219Z",
+            "DireccionComBlog": "demospace-prueba",
+            "styles": {
+                "backgroundColor": "#000000",
+                "padding": "0px",
+                "width": "100%",
+                "height": "auto",
+                "borderWidth": "0px",
+                "borderColor": "#000000",
+                "borderRadius": "0px",
+                "opacity": "1",
+                "alignItems": "center",
+                "textAlign": "center",
+                "columnIndex": "1"
+            },
+            "items": [
+                {
+                    "xsi_type": "Contenedor",
+                    "id": "b45ab741-79b2-403f-8aa5-e121cf4bac67",
+                    "CronoTag": "2024-06-11T07:31:27.6572184Z",
+                    "name": "",
+                    "items": [
+                        {
+                            "xsi_type": "ContenedorInterno",
+                            "id": "04ff5558-f676-5032-acd3-179b6b34baFL",
+                            "name": "",
+                            "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                            "styles": {
+                                "padding": "10px",
+                                "width": "100%",
+                                "height": "fit-content",
+                                "display": "flex",
+                                "flexDirection": "column",
+                                "gap": "15px",
+                                "backgroundColor": "black"
+                            },
+                            "items": [
+                                {
+                                    "xsi_type": "Lista",
+                                    "id": "04ff5551-f676-4632-acd3-179b6b392aGB",
+                                    "name": "",
+                                    "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                    "dataEndpoint": "http://localhost:3000/posts",
+                                    "styles": {
+                                        "display": "flex",
+                                        "flexDirection": "column",
+                                        "gap": "10px",
+                                        "padding": "15px",
+                                        "borderWidth": "2px",
+                                        "borderColor": "#ed1d7a",
+                                        "width": "100%",
+                                        "height": "100%",
+                                        "borderRadius": "10px"
+                                    },
+                                    "listStructure": [
+                                        {
+                                            "xsi_type": "ContenedorInterno",
+                                            "id": "04ff55SX-f676-4632-acd3-179b1134baqw",
+                                            "name": "",
+                                            "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                            "styles": {
+                                                "alignItems": "flex-start",
+                                                "display": "flex",
+                                                "flexDirection": "column",
+                                                "width": "100%"
+                                            },
+                                            "items": [
+                                                {
+                                                    "xsi_type": "TituloDeInScreen",
+                                                    "id": "04ff5558-f676-4632-acd3-179bNX34bghq",
+                                                    "name": "",
+                                                    "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                                    "innerText": "¿Quién eres y de dónde eres?",
+                                                    "styles": {
+                                                        "color": "white",
+                                                        "fontSize": "16px",
+                                                        "fontWeight": 700
+                                                    }
+                                                },
+                                                {
+                                                    "xsi_type": "Parrafo",
+                                                    "id": "04ff5558-f676-4632-acd3-179b6b3SSglj",
+                                                    "name": "",
+                                                    "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                                    "dataElement": "who_where",
+                                                    "dataTarget": "innerText",
+                                                    "innerText": "",
+                                                    "styles": {
+                                                        "color": "white",
+                                                        "fontSize": "14px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "xsi_type": "ContenedorInterno",
+                                            "id": "04ff55SX-f676-JJ32-acd3-179b1134baqw",
+                                            "name": "",
+                                            "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                            "styles": {
+                                                "alignItems": "flex-start",
+                                                "display": "flex",
+                                                "flexDirection": "column",
+                                                "width": "100%"
+                                            },
+                                            "items": [
+                                                {
+                                                    "xsi_type": "TituloDeInScreen",
+                                                    "id": "04ff5558-AU76-4632-acd3-179bNX34bghq",
+                                                    "name": "",
+                                                    "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                                    "innerText": "¿Quién quieres ser?",
+                                                    "styles": {
+                                                        "color": "white",
+                                                        "fontSize": "16px",
+                                                        "fontWeight": 700
+                                                    }
+                                                },
+                                                {
+                                                    "xsi_type": "Parrafo",
+                                                    "id": "04ff5558-f676-4TT2-acd3-179b6b3SSglj",
+                                                    "name": "",
+                                                    "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                                    "dataElement": "wanna_be",
+                                                    "dataTarget": "innerText",
+                                                    "innerText": "",
+                                                    "styles": {
+                                                        "color": "white",
+                                                        "fontSize": "14px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "xsi_type": "ContenedorInterno",
+                                            "id": "04ff55SX-f676-4632-acKX-179b1134baqw",
+                                            "name": "",
+                                            "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                            "styles": {
+                                                "alignItems": "flex-start",
+                                                "display": "flex",
+                                                "flexDirection": "column",
+                                                "width": "100%"
+                                            },
+                                            "items": [
+                                                {
+                                                    "xsi_type": "TituloDeInScreen",
+                                                    "id": "04ff5558-f676-4632-acd3-1VBbNX34bghq",
+                                                    "name": "",
+                                                    "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                                    "innerText": "¿Cuál es tu email?",
+                                                    "styles": {
+                                                        "color": "white",
+                                                        "fontSize": "16px",
+                                                        "fontWeight": 700
+                                                    }
+                                                },
+                                                {
+                                                    "xsi_type": "Parrafo",
+                                                    "id": "04ff5558-f676-4632-acd3-179b6IISSglj",
+                                                    "name": "",
+                                                    "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                                    "dataElement": "email",
+                                                    "dataTarget": "innerText",
+                                                    "innerText": "",
+                                                    "styles": {
+                                                        "color": "white",
+                                                        "fontSize": "14px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "xsi_type": "ContenedorInterno",
+                                            "id": "YVff55SX-f676-4632-acd3-179b1134baqw",
+                                            "name": "",
+                                            "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                            "styles": {
+                                                "alignItems": "flex-start",
+                                                "display": "flex",
+                                                "flexDirection": "column",
+                                                "width": "100%"
+                                            },
+                                            "items": [
+                                                {
+                                                    "xsi_type": "TituloDeInScreen",
+                                                    "id": "0LLf5558-f676-4632-acd3-179bNX34bghq",
+                                                    "name": "",
+                                                    "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                                    "innerText": "Link de tu canción",
+                                                    "styles": {
+                                                        "color": "white",
+                                                        "fontSize": "16px",
+                                                        "fontWeight": 700
+                                                    }
+                                                },
+                                                {
+                                                    "xsi_type": "Link",
+                                                    "id": "04ff5HV8-f676-4632-acd3-179b6b3SSglj",
+                                                    "name": "",
+                                                    "CronoTag": "2024-06-11T07:57:00.7840211Z",
+                                                    "dataElement": "link",
+                                                    "dataTarget": "src",
+                                                    "src": "",
+                                                    "styles": {
+                                                        "color": "white",
+                                                        "fontSize": "14px"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
