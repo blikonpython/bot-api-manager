@@ -1,3 +1,4 @@
+import os
 from flask import Flask
 from controllers.data_controller import data_blueprint
 
