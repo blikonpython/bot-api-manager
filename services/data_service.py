@@ -4,8 +4,13 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 
 # Inicializar Firebase Admin SDK
-cred = credentials.Certificate(os.path.join(os.getcwd(), 'firebase_credentials.json'))
-firebase_admin.initialize_app(cred)
+firebase_credentials = os.getenv('FIREBASE_CREDENTIALS')
+if firebase_credentials:
+    cred = credentials.Certificate(json.loads(firebase_credentials))
+    firebase_admin.initialize_app(cred)
+else:
+    raise ValueError("Firebase credential not found.")
+
 db = firestore.client()
 
 
