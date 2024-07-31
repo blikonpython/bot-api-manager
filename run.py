@@ -1,5 +1,6 @@
 import os
 from flask import Flask
+from flask_cors import CORS
 from dotenv import load_dotenv
 from controllers.data_controller import data_blueprint
 
@@ -7,10 +8,10 @@ from controllers.data_controller import data_blueprint
 load_dotenv()
 
 app = Flask(__name__)
+CORS(app)
 
 # Registrar Blueprints
 app.register_blueprint(data_blueprint)
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8000, debug=True)
-
